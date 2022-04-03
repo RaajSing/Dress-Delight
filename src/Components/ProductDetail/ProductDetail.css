@@ -1,0 +1,39 @@
+.detailContainer{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height:80vh;
+}
+.detailContainer h2{
+    text-align: center;
+    font-size: 27px;
+    font-weight: 500;
+}
+.detailContainer .closeBtn{
+    position: absolute;
+    top:0;
+    right:0px;
+}
+.detail{
+    width:400px;
+    margin:auto;
+    border:1px solid lightgray;
+    padding:20px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    text-align: center;
+    position: relative;
+}
+.detail .image{
+    width:250px;
+    margin:auto;
+    height: 200px;
+    overflow: hidden;
+}
+.detail .image img{
+    width:100%;
+    height: fit-content;
+}
